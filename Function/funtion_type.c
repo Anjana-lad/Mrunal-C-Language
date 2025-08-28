@@ -18,18 +18,18 @@ int square(){   // function defintion
     printf("Square of given number=%d",num*num);
 }
 int main(){
-    int a,b;
+    int num1,num2;
     square();  // square function call
     printf("Cube of number=%d",cube());  // cube funtion call
     printf("\nEnter a and b:");
-    scanf("%d %d",&a,&b);
-    add(a,b);  // calling add function
-   printf("\n Subtraction =%d", Subtract(a,b)); // calling subtract function
+    scanf("%d %d",&num1,&num2);
+    add(num1,num2);  // calling add function
+   printf("\n Subtraction =%d", Subtract(num1,num2)); // calling subtract function
 }
 
 // 2. no arguments with return:
 int cube(){
-    int n1;
+    int n1;   // local Parameter
     printf("\nEnter num:");
     scanf("%d",&n1);
     return n1*n1*n1;
