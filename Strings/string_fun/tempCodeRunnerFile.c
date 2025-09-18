@@ -1,0 +1,1 @@
+printf("\n Reverse=%s",strrev(str));
